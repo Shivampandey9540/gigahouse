@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Poppins:wght@900&display=swap');
+
+
+  .App{
+    background: linear-gradient(178deg, #000 -7.16%, #04001B 67.92%, #030008 141.83%, #1A003A 212.22%, #340175 218.08%);
+  }
+.font-poppins {
+  font-family: "poppins";
+}
+  
+  /* Adjust other cell styles as needed */
+  
