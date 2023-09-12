@@ -13,7 +13,7 @@ const Accordion = ({ items }) => {
       <div className="space-y-2 w-[80%]  ">
         {items.map((item, index) => (
           <div key={index}
-            className="w-full bg-[#14002D] overflow-hidden pl-[34px] pr-[34px] pt-[20px] pb-[20px]  flex justify-between flex-col  rounded-[20px] items-center p-2 bg-gray-100  focus:outline-none">
+            className="w-full bg-[#14002D] overflow-hidden pl-[34px] pr-[34px] pt-[20px] pb-[20px]  flex justify-between flex-col  rounded-[20px] items-center p-2  focus:outline-none">
             <div
               onClick={() => toggleAccordion(index)}
               className='w-full'
