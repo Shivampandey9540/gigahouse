@@ -24,11 +24,11 @@ const Accordion = ({ items }) => {
                 <div>
                   <span>{item.title}</span>
                 </div>
-                <div className='flex  w-[65%] justify-end'>
-                  <div>
+                <div className='flex  w-[65%] justify-end gap-[20px] '>
+                  <div className='w-[60%]'>
                     {
                       activeIndex === index ?
-                        <p>
+                        <p className='text-[18px]' >
                           Lorem ipsum dolor sit amet consectetur. Sed sollicitudin at in neque auctor fermentum pharetra
                         </p> :
                         <p></p>
@@ -56,10 +56,10 @@ const Accordion = ({ items }) => {
             <div className='overflow-hidden w-full'>
 
               {activeIndex === index && (
-                <div className="p-2 navany w-full flex gap-[10px] justify-center">
+                <div className="p-2 navany w-full flex gap-[30px] justify-center ">
                   {/* {item.content} */}
-                  <div className='w-[40%] h-[100px] bg-[#ffffff]' ></div>
-                  <div className='w-[40%] h-[100px] bg-[#ffffff]' ></div>
+                  <div className='w-[40%] h-[300px] bg-[#ffffff] rounded-[20px]' ></div>
+                  <div className='w-[40%] h-[300px] bg-[#ffffff] rounded-[20px]' ></div>
                 </div>
               )}
 

@@ -26,9 +26,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <Navbar/>
-      {/* <HeroSection/> */}
-    
+      <Navbar/>   
       <Accordion items={accordionItems} />
       <Project />
       <NewSection />
