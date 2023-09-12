@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
+import Navbar from './Component/Header';
 import Accordion from './About';
 import Project from './Component/Project';
 import NewSection from './Component/News';
@@ -24,8 +25,10 @@ function App() {
   ];
   return (
     <div className="App">
+      {/* <Navbar/> */}
       <Navbar/>
       {/* <HeroSection/> */}
+    
       <Accordion items={accordionItems} />
       <Project />
       <NewSection />
