@@ -27,7 +27,50 @@ function HeroSection(){
             <button className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900" fdprocessedid="k2emc2j">Get started</button>
           </div>
         </div> */}
-      
+        <div>
+          <div className="grid grid-cols-8 h-[400px]  gap-[20px] items-center absoulte bottom-[100px] p-[15px]">
+            <div className="flex flex-col col-span-2 justify-start items-center  w-[100%] h-[100%]">
+
+              {/* <div className="w-[100%] h-[70%] bg-hero_first_img bg-cover bg-no-repeat bg-center rounded-[10px]">
+
+              </div> */}
+              {/* <RightHeroImage   /> */}
+            </div>
+            <div className="flex flex-col col-span-1 justify-start items-center w-[100%] h-[100%]" >
+
+              <div className=" w-[100%] h-[70%] bg-[#fff]"></div>
+
+            </div>
+            <div className="flex flex-col col-span-2 justify-end items-center  w-[100%] h-[43%] ">
+            
+             <div>
+
+              <div className="h-[80px] w-[300px] rounded-3xl bg-[#fff]">
+
+
+              </div>
+              <div className="h-[80px] w-[300px] rounded-3xl bg-[#fff]">
+
+              </div>
+             </div>
+
+            </div>
+            <div className="flex flex-col col-span-1 justify-start items-center w-[100%] h-[100%]" >
+                {/* <div className="w-[100%] h-[70%]  relative bg-hero_first_img  bg-cover bg-center bg-size-[100%] bg-no-repeat"> */}
+              {/* <img src={hero_first_img} className="object-fill object-center w-full h-full"   alt=""/> */}
+
+                </div>
+              {/* < LaptopImage    /> */}
+            {/* </div> */}
+            <div className="flex flex-col col-span-2 justify-start items-center w-[100%] h-[100%]">
+              <div className=" w-[100%] h-[70%]">
+                <LeftImage />
+              </div>
+
+            </div>
+
+          </div>
+        </div>
       </section>
     )
 }

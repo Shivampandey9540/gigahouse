@@ -17,6 +17,19 @@
   grid-template-columns: 60% 40%;
   
   }
+
+  .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+  }
   .rectangle8 {
     width: 100%;
     height: 60vh;
@@ -46,9 +59,6 @@
   }
   .rectangle13 {
        
-  
-  
-  
     border-radius: 35px;
     background-color: #fff;
   }
@@ -58,4 +68,9 @@
     background-image: url("../src/images/bg.svg");
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+   .hero_left_second{
+    border-radius: 57px;
+background: url(./images/Rectangle\ 5.jpg), lightgray 50% / cover no-repeat;
   }

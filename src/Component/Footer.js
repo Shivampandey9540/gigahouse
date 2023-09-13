@@ -5,12 +5,12 @@ function Footer() {
     <footer className="footer p-10 bg-neutral text-neutral-content bg-black text-white ">
     
 
-<div className=" flex items-center justify-between m-[20px]" >
+<div className=" flex items-center font-poppins font-[800] justify-between m-[20px]" >
 
     <div className="flex flex-col gap-[30px]">
 
         <h1  className="text-[50px] font-[800]">"Let’s Build and Scale it <br/>Together”</h1>
-        <p>
+        <p className="font-[600]">
         Your One-Stop Solution for MVPs, Web/App Development, Branding, and Product Enhancement"
         </p>
    
@@ -19,7 +19,7 @@ function Footer() {
 
 
       <div className="flex flex-wrap justify-center ">
-      <button type="button" className="px-8 py-3 font-semibold rounded-full bg-white text-black">Let's contact</button>      </div>
+      <button type="button" className="px-8 py-3 font-semibold rounded-full bg-white  text-[#020810] font-[500] font-poppins text-black">Let’s Build</button>      </div>
 </div>
 
       <hr/>
