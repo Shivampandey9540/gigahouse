@@ -14,7 +14,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      gridColumn:{
+      gridColumn: {
         'cols-1H': 'repeat(8, minmax(0, 1.5fr))'
       },
       backgroundImage: {
@@ -23,6 +23,9 @@ module.exports = {
       },
       animation: {
         'navany': 'mymove 1s',
+        wiggle: 'wiggle 2s ease-in-out',
+        wiggle2: 'wiggle2 2s ease-in-out',
+
       },
       keyframes: {
         'mymove': {
@@ -34,9 +37,19 @@ module.exports = {
             position: "relative",
             insetBlockStart: '0',
           },
-    },
-  }
-}
+        },
+        wiggle: {
+          '0%': { transform: 'rotate(-180deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        },
+        wiggle2: {
+          '0%': { transform: 'rotate(-180deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        }
+      },
+
+
+    }
   },
   plugins: [
     require('flowbite/plugin')

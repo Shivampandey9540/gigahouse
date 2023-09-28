@@ -16,18 +16,24 @@ code {
 }
 
 
-.navany{
-  animation: mymove 0.5s ;
+.navany {
+  animation: mymove 0.5s;
 }
+
 @keyframes mymove {
-  0%{
+  0% {
 
     position: relative;
-      inset-block-start:-100px
-
+    inset-block-start: -100px
   }
+
   100% {
     position: relative;
-      inset-block-start:0;
+    inset-block-start: 0;
   }
-} 
+}
+
+input:focus,
+input:focus {
+  outline: none;
+}

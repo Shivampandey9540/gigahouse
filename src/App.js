@@ -7,6 +7,7 @@ import Project from './Component/Project';
 import NewSection from './Component/News';
 import HeroSection from './Component/HeroSection';
 import Footer from './Component/Footer';
+
 function App() {
   const accordionItems = [
     {
@@ -26,11 +27,13 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <Navbar/>   
+      <Navbar />
       <Accordion items={accordionItems} />
       <Project />
       <NewSection />
+      {/* <Circle /> */}
       <Footer />
+
     </div>
   );
 }
